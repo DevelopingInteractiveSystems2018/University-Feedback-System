@@ -2,7 +2,7 @@
 ## Overview
 University Feedback is online website which provide information about universities, students and study programs to everyone and the main purpose is to help students around the world to choose study program based on their interest and requirements, and provide them further insight through students reviews and feedback about their study programs and universities. The focus is to improve search engine optimization and include different search filters so users can have customized search results like comparing information, searching by interest, upvotes, popular/most upvoted/new/least popular reviews, region, scholarship and many other factors can be considered to generate better search results. 
 ## Contributors
-1. Palwasha as Developer
+1. Palwasha as Designer|Developer
 2. Nicolas as Designer
 3. Kristi as Designer
 4. Serena as Designer
