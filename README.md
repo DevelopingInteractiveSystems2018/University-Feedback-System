@@ -5,7 +5,6 @@ University Feedback is online website which provide information about universiti
 1. Palwasha as Designer|Developer
 2. Nicolas as Designer
 3. Kristi as Designer
-4. Serena as Designer
 ## Possible framework(s)
 Possible framework to be used for developing the prototype is HTML and CSS.
 ## Target platform(s) 
