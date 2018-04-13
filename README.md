@@ -1,13 +1,13 @@
 # University-Feedback-System
 ## Overview
-University Feedback is online website which provide information about universities, students and study programs to everyone and the main purpose is to help students around the world to choose study program based on their interest and requirements, and provide them further insight through students reviews and feedback about their study programs and universities. The focus is to improve search engine optimization and include different search filters so users can have customized search results like comparing information, searching by interest, upvotes, popular/most upvoted/new/least popular reviews, region, scholarship and many other factors can be considered to generate better search results. 
+University Feedback System is a web application that provides information about study programs and universities around the world, users area able to search for different programmes and universities using different filters and have customized search results, browse for information, discover information about universities, study programs and student's communities visually in geographical context, the main benefit of is that it can help users to browse and compare study programmes and universities based on student's reviews, experiences and ratings, users can understand more about study programmes from student's perspective and insight that have studied the study programmes for months and years. 
 ## Contributors
-1. Palwasha as Designer|Developer
+1. Palwasha as Designer, Developer
 2. Nicolas as Designer
 3. Kristi as Designer
-## Possible framework(s)
-Possible framework to be used for developing the prototype is HTML and CSS.
+## framework(s)
+HTML 5, CSS, Javascript
 ## Target platform(s) 
-University Feedback is a web app and it’s considered to be compatible and run in multiple interfaces like laptop, mobile, tablet, smart TV.
+Laptop and tablet on Google Chrome
 ## Guide to installing/running the prototype (this can be filled out later as your progress with developing your prototype). 
 Will be done later...
