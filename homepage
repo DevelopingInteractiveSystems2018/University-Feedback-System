@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>University Feedback System</title>
+<script>
+    function showResult(str) {
+      if (str.length==0) { 
+        document.getElementById("livesearch").innerHTML="";
+        document.getElementById("livesearch").style.border="0px";
+        return;
+      }
+      if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+      } else {  // code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      xmlhttp.onreadystatechange=function() {
+        if (this.readyState==4 && this.status==200) {
+          document.getElementById("livesearch").innerHTML=this.responseText;
+          document.getElementById("livesearch").style.border="1px solid #A5ACB2";
+        }
+      }
+      xmlhttp.open("GET","unisearch.php?q="+str,true);
+      xmlhttp.send();
+    }
+    </script>
+<link rel="stylesheet" href="unistyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="content">
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Programme
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="programmeselect.html">Doctoral</a>
+              <a href="programmeselect.html">Masters</a> 
+              <a href="programmeselect.html">Bachelor</a> 
+              <a href="programmeselect.html">Short Courses</a>
+            </div>
+          </div> 
+        <a href="#discover">Discover</a>
+          <div class="dropdown">
+          <button class="dropbtn">Ask 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">FAQs</a>
+            <a href="#">Forum</a>
+          </div>
+        </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<!-- The search form in main page -->
+<form class="mainsearch" style="margin:auto;max-width:auto">
+    <input type="text" placeholder="Search Study Programmes here..." name="search study programmes" onkeyup="showResult(this.value)">
+    <div id="livesearch"></div>
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  <!-- search by field starts here-->
+  <h2 style="font-size: 16px">Browse By Field</h2>
+  <div style="overflow-x:auto;">
+        <table>
+          <tr>
+            <td><a href="programmeselect.html">Agriculture & Forestry</a></td>
+            <td><a href="programmeselect.html">Applied Sciences & Professions</a></td>
+            <td><a href="programmeselect.html">Arts, Design & Architecture</a></td>
+            <td><a href="programmeselect.html">Business & Management</a></td>
+            <td><a href="programmeselect.html">Computer Science & IT</a></td>
+          </tr>
+          <tr>
+                <td><a href="programmeselect.html">Education & Training</a></td>
+                <td><a href="programmeselect.html">Engineering & Technology</a></td>
+                <td><a href="programmeselect.html">Environmental Studies & Earth Sciences</a></td>
+                <td><a href="programmeselect.html">Hospitality, Leisure & Sports</a></td>
+                <td><a href="programmeselect.html">Humanities</a></td>
+              </tr>
+              <tr>
+                    <td><a href="programmeselect.html">Journalism & Media</a></td>
+                    <td><a href="programmeselect.html">Law</a></td>
+                    <td><a href="programmeselect.html">Natural Sciences & Mathematics</a></td>
+                    <td><a href="programmeselect.html">Medicine & Health</a></td>
+                    <td><a href="programmeselect.html">Social Sciences</a></td>
+                  </tr>
+                  </table>
+      </div>
+      <img src="images/worldmapdiscover.jpg" alt="discover universities" width="1000px">
+<div class="footer">
+      <p>Study Programmes</p><br>
+      - Search Programmes
+      <p>- Browse By Field</p>
+      <p>- Discover</p>
+</div>
+</div>
+</body>
+</html>
