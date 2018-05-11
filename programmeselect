@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>University Feedback System</title>
+<link rel="stylesheet" href="unistyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Programme
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Doctoral</a>
+              <a href="#">Masters</a> 
+              <a href="#">Bachelor</a> 
+              <a href="#">Short Courses</a>
+            </div>
+          </div> 
+        <a href="#discover">Discover</a>
+          <div class="dropdown">
+          <button class="dropbtn">Ask 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">FAQs</a>
+            <a href="#">Forum</a>
+          </div>
+        </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<!-- The search form in main page -->
+<form class="mainsearch" action="/action_page.php" style="margin:auto;max-width:auto">
+    <input type="text" placeholder="Search Study Programmes here..." name="search study programmes">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+
+<div class="row"> 
+      <div class="column" style="background-color:white;"> 
+          <img src="images/tlulogo.svg" alt="TLU Logo" width="100px"><br>
+         <label>230</label>
+         <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+         <i class="fa fa-desktop icon" style=font-size:12px;></i>
+         <label><a href="http://www.tlu.ee/">tlu.ee/en</a></label><br>
+         <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+         <label>Tallinn, Estonia</label><br>
+         <i class="fa fa-facebook-official icon" style=font-size:12px;></i>
+         <label>info@tlu.ee</label><br>
+         <i class="fa fa-envelope-o icon" style=font-size:12px;></i>
+         <label>fb/tlu.ee</label><br>   
+        </div>
+        <div class="column" style="background-color:white;">
+            <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+            <p style="font-size: 10px">Tallinn University</p>
+            <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+            <p style="font-size: 10px">Cost: 3,250 Euros</p>
+            <p style="font-size: 10px">Language of Instruction: English</p>
+            <p style="font-size: 10px">Conferred Degree: Masters</p>   
+            <h2 style="font-size: 10px">Introduction: </h2>
+            <P style="font-size: 10px">
+                  If you are interested in how law impacts our daily lives and <br> 
+                  how disputes are settled in an increasingly globalized world,<br>  
+                  then studying law at Tallinn University is for you! Our program<br> 
+                  is tought in the English language and Focuses on European and <br> 
+                  international Law.   
+            </P>    
+            <a href="programmeprofile.html" style="font-size: 12px">readmore...</a>                                                                                         
+          </div>
+          <!--another  next one-->
+          <div class="column" style="background-color:white;"> 
+                <img src="images/tlulogo.svg" alt="TLU Logo" width="100px"><br>
+               <label>230</label>
+               <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+               <i class="fa fa-desktop icon" style=font-size:12px;></i>
+               <label><a href="http://www.tlu.ee/">tlu.ee/en</a></label><br>
+               <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+               <label>Tallinn, Estonia</label><br>
+               <i class="fa fa-facebook-official icon" style=font-size:12px;></i>
+               <label>info@tlu.ee</label><br>
+               <i class="fa fa-envelope-o icon" style=font-size:12px;></i>
+               <label>fb/tlu.ee</label><br>   
+              </div>
+              <div class="column" style="background-color:white;">
+                  <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+                  <p style="font-size: 10px">Tallinn University</p>
+                  <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+                  <p style="font-size: 10px">Cost: 3,250 Euros</p>
+                  <p style="font-size: 10px">Language of Instruction: English</p>
+                  <p style="font-size: 10px">Conferred Degree: Masters</p>   
+                  <h2 style="font-size: 10px">Introduction: </h2>
+                  <P style="font-size: 10px">
+                        If you are interested in how law impacts our daily lives and <br> 
+                        how disputes are settled in an increasingly globalized world,<br>  
+                        then studying law at Tallinn University is for you! Our program<br> 
+                        is tought in the English language and Focuses on European and <br> 
+                        international Law.   
+                  </P>    
+                  <a href="programmeprofile.html" style="font-size: 12px">readmore...</a>                                                                                         
+                </div>
+
+</div>
+<div class="row">
+                        <div class="column" style="background-color:white;"> 
+                                <img src="images/tlulogo.svg" alt="TLU Logo" width="100px"><br>
+                               <label>230</label>
+                               <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+                               <i class="fa fa-desktop icon" style=font-size:12px;></i>
+                               <label><a href="http://www.tlu.ee/">tlu.ee/en</a></label><br>
+                               <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+                               <label>Tallinn, Estonia</label><br>
+                               <i class="fa fa-facebook-official icon" style=font-size:12px;></i>
+                               <label>info@tlu.ee</label><br>
+                               <i class="fa fa-envelope-o icon" style=font-size:12px;></i>
+                               <label>fb/tlu.ee</label><br>   
+                              </div>
+                              <div class="column" style="background-color:white;">
+                                  <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+                                  <p style="font-size: 10px">Tallinn University</p>
+                                  <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+                                  <p style="font-size: 10px">Cost: 3,250 Euros</p>
+                                  <p style="font-size: 10px">Language of Instruction: English</p>
+                                  <p style="font-size: 10px">Conferred Degree: Masters</p>   
+                                  <h2 style="font-size: 10px">Introduction: </h2>
+                                  <P style="font-size: 10px">
+                                        If you are interested in how law impacts our daily lives and <br> 
+                                        how disputes are settled in an increasingly globalized world,<br>  
+                                        then studying law at Tallinn University is for you! Our program<br> 
+                                        is tought in the English language and Focuses on European and <br> 
+                                        international Law.   
+                                  </P>    
+                                  <a href="programmeprofile.html" style="font-size: 12px">readmore...</a>                                                                                         
+                                </div>
+                                <div class="column" style="background-color:white;"> 
+                                        <img src="images/tlulogo.svg" alt="TLU Logo" width="100px"><br>
+                                       <label>230</label>
+                                       <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+                                       <i class="fa fa-desktop icon" style=font-size:12px;></i>
+                                       <label><a href="http://www.tlu.ee/">tlu.ee/en</a></label><br>
+                                       <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+                                       <label>Tallinn, Estonia</label><br>
+                                       <i class="fa fa-facebook-official icon" style=font-size:12px;></i>
+                                       <label>info@tlu.ee</label><br>
+                                       <i class="fa fa-envelope-o icon" style=font-size:12px;></i>
+                                       <label>fb/tlu.ee</label><br>   
+                                      </div>
+                                      <div class="column" style="background-color:white;">
+                                          <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+                                          <p style="font-size: 10px">Tallinn University</p>
+                                          <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+                                          <p style="font-size: 10px">Cost: 3,250 Euros</p>
+                                          <p style="font-size: 10px">Language of Instruction: English</p>
+                                          <p style="font-size: 10px">Conferred Degree: Masters</p>   
+                                          <h2 style="font-size: 10px">Introduction: </h2>
+                                          <P style="font-size: 10px">
+                                                If you are interested in how law impacts our daily lives and <br> 
+                                                how disputes are settled in an increasingly globalized world,<br>  
+                                                then studying law at Tallinn University is for you! Our program<br> 
+                                                is tought in the English language and Focuses on European and <br> 
+                                                international Law.   
+                                          </P>    
+                                          <a href="programmeprofile.html" style="font-size: 12px">readmore...</a>                                                                                         
+                                        </div>
+
+         
+</div>
+<div class="row">
+<div class="column" style="background-color:white;"> 
+        <img src="images/tlulogo.svg" alt="TLU Logo" width="100px"><br>
+       <label>230</label>
+       <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+       <i class="fa fa-desktop icon" style=font-size:12px;></i>
+       <label><a href="http://www.tlu.ee/">tlu.ee/en</a></label><br>
+       <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+       <label>Tallinn, Estonia</label><br>
+       <i class="fa fa-facebook-official icon" style=font-size:12px;></i>
+       <label>info@tlu.ee</label><br>
+       <i class="fa fa-envelope-o icon" style=font-size:12px;></i>
+       <label>fb/tlu.ee</label><br>   
+      </div>
+      <div class="column" style="background-color:white;">
+          <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+          <p style="font-size: 10px">Tallinn University</p>
+          <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+          <p style="font-size: 10px">Cost: 3,250 Euros</p>
+          <p style="font-size: 10px">Language of Instruction: English</p>
+          <p style="font-size: 10px">Conferred Degree: Masters</p>   
+          <h2 style="font-size: 10px">Introduction: </h2>
+          <P style="font-size: 10px">
+                If you are interested in how law impacts our daily lives and <br> 
+                how disputes are settled in an increasingly globalized world,<br>  
+                then studying law at Tallinn University is for you! Our program<br> 
+                is tought in the English language and Focuses on European and <br> 
+                international Law.   
+          </P>    
+          <a href="programmeprofile.html" style="font-size: 12px">readmore...</a>                                                                                         
+        </div>
+        <div class="column" style="background-color:white;"> 
+                <img src="images/tlulogo.svg" alt="TLU Logo" width="100px"><br>
+               <label>230</label>
+               <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+               <i class="fa fa-desktop icon" style=font-size:12px;></i>
+               <label><a href="http://www.tlu.ee/">tlu.ee/en</a></label><br>
+               <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+               <label>Tallinn, Estonia</label><br>
+               <i class="fa fa-facebook-official icon" style=font-size:12px;></i>
+               <label>info@tlu.ee</label><br>
+               <i class="fa fa-envelope-o icon" style=font-size:12px;></i>
+               <label>fb/tlu.ee</label><br>   
+              </div>
+              <div class="column" style="background-color:white;">
+                  <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+                  <p style="font-size: 10px">Tallinn University</p>
+                  <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+                  <p style="font-size: 10px">Cost: 3,250 Euros</p>
+                  <p style="font-size: 10px">Language of Instruction: English</p>
+                  <p style="font-size: 10px">Conferred Degree: Masters</p>   
+                  <h2 style="font-size: 10px">Introduction: </h2>
+                  <P style="font-size: 10px">
+                        If you are interested in how law impacts our daily lives and <br> 
+                        how disputes are settled in an increasingly globalized world,<br>  
+                        then studying law at Tallinn University is for you! Our program<br> 
+                        is tought in the English language and Focuses on European and <br> 
+                        international Law.   
+                  </P>    
+                  <a href="programmeprofile.html" style="font-size: 12px">readmore...</a>                                                                                         
+                </div>
+    </div>
+
+
+
+
+<div class="footer">
+  <p>Study Programmes</p><br>
+  - Search Programmes
+  <p>- Browse By Field</p>
+  <p>- Discover</p>
+</div>
+
+</div>
+</body>
+</html>
