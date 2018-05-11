@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>University Feedback System</title>
+<link rel="stylesheet" href="unistyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="content">
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Programme
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Doctoral</a>
+              <a href="#">Masters</a> 
+              <a href="#">Bachelor</a> 
+              <a href="#">Short Courses</a>
+            </div>
+          </div> 
+        <a href="#discover">Discover</a>
+          <div class="dropdown">
+          <button class="dropbtn">Ask 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">FAQs</a>
+            <a href="#">Forum</a>
+          </div>
+        </div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<!-- The search form in main page -->
+<form class="mainsearch" action="/action_page.php" style="margin:auto;max-width:auto">
+    <input type="text" placeholder="Search Study Programmes here..." name="search study programmes">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  <!--ok programme page upper part, created row and coloum to be in good order-->
+  <div class="row">
+        <div class="column left" style="background-color:white;">
+        <img src="images/tlulogo.svg" alt="TLU Logo" width="150px"><br>
+        <i class="fa fa-desktop icon"></i>
+        <label><a href="http://www.tlu.ee/">tlu.ee/en</a></label><br>
+        <i class="material-icons icon">place</i>
+        <label>Tallinn, Estonia</label><br>
+        <i class="fa fa-facebook-official icon"></i>
+        <label>info@tlu.ee</label><br>
+        <i class="fa fa-envelope-o icon"></i>
+        <label>fb/tlu.ee</label><br>
+        </div>
+        <div class="column right" style="background-color:white;">
+          <h2>Human-Computer Interaction</h2>
+          <p>Tallinn University</p>
+          <p>Duration: 2 years (120 ETC)</p>
+          <p>Cost: 3,250 Euros</p>
+          <p>Language of Instruction: English</p>
+          <p>Conferred Degree: Masters</p>                                                                                             
+        </div>
+      </div>
+<!--the map thing and comments-->
+<div class="row">
+  <div class="column" style="background-color:white;">
+  <img src="images/worldmapsmall.svg" alt="discover" width="100px" height="150px"><br>
+  </div>
+  <div class="column" style="background-color:white;">
+      <img src="images/Polygon.svg" width="20px"  height="150px"><br>
+      </div>
+  <div class="column" style="background-color:white;">
+ <img src="images/user.svg" alt="discover" width="60px"><br>
+ <p style="font-size:10px;">Raj Malhotra</p>
+ <!--star thing-->
+ <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+ <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+ <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+ <i class="fa fa-star-half-full" style="color:#0073d8; font-size:10px"></i>
+ <i class="fa fa-star-o" style="color:#0073d8; font-size:10px"></i><br>
+ <i class="fa fa-circle" style="color:#0073d8; font-size:10px"></i>
+ <label>Online</label><br>
+ <i class="fa fa-map-marker" style="color:#0073d8; font-size:10px"></i>
+ <label>Tallinn, Estonia</label><br>
+   </div>
+   <div class="column" style="background-color:white;">
+      <label>230</label>
+      <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:10px;></i><br>
+     <p style="font-size:10px;">
+      "The course is quite easy, but its super<br>
+      practical. We got theoretical knowledge<br>
+      plus a lot of practical courses. All of the<br>
+      professors are working on the field and<br>
+      teach through their experiences. It is not<br> 
+      however very academic and can be slow<br>
+      paced."
+     </p>
+   </div>
+   <div class="column" style="background-color:white;">
+      <img src="images/user.svg" alt="discover" width="60px"><br>
+      <p style="font-size:10px;">Raj Malhotra</p>
+      <!--star thing-->
+      <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+      <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+      <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+      <i class="fa fa-star-half-full" style="color:#0073d8; font-size:10px"></i>
+      <i class="fa fa-star-o" style="color:#0073d8; font-size:10px"></i><br>
+      <i class="fa fa-circle" style="color:#0073d8; font-size:10px"></i>
+      <label>Online</label><br>
+      <i class="fa fa-map-marker" style="color:#0073d8; font-size:10px"></i>
+      <label>Tallinn, Estonia</label><br>
+        </div>
+        <div class="column" style="background-color:white;">
+           <label>230</label>
+           <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:10px;></i><br>
+          <p style="font-size:10px;">
+           "The course is quite easy, but its super<br>
+           practical. We got theoretical knowledge<br>
+           plus a lot of practical courses. All of the<br>
+           professors are working on the field and<br>
+           teach through their experiences. It is not<br> 
+           however very academic and can be slow<br>
+           paced."
+          </p>
+        </div>
+        <div class="column" style="background-color:white;">
+            <img src="images/user.svg" alt="discover" width="60px"><br>
+            <p style="font-size:10px;">Raj Malhotra</p>
+            <!--star thing-->
+            <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+            <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+            <i class="fa fa-star" style="color:#0073d8; font-size:10px"></i>
+            <i class="fa fa-star-half-full" style="color:#0073d8; font-size:10px"></i>
+            <i class="fa fa-star-o" style="color:#0073d8; font-size:10px"></i><br>
+            <i class="fa fa-circle" style="color:#0073d8; font-size:10px"></i>
+            <label>Online</label><br>
+            <i class="fa fa-map-marker" style="color:#0073d8; font-size:10px"></i>
+            <label>Tallinn, Estonia</label><br>
+              </div>
+              <div class="column" style="background-color:white;">
+                 <label>230</label>
+                 <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:10px;></i><br>
+                <p style="font-size:10px;">
+                 "The course is quite easy, but its super<br>
+                 practical. We got theoretical knowledge<br>
+                 plus a lot of practical courses. All of the<br>
+                 professors are working on the field and<br>
+                 teach through their experiences. It is not<br> 
+                 however very academic and can be slow<br>
+                 paced."
+                </p>
+              </div>  
+              <div class="column" style="background-color:white;">
+                  <img src="images/Polygon2.svg" width="20px"  height="150px"><br>
+                  </div> 
+</div>
+  <!--the programm details-->
+  <div class="row">
+    <div class="column left" style="background-color:white;"> </div>
+
+    <h2>Objectives of the Programme</h2>
+    <p>
+    - to provide conditions for preparing specialists with the highest scientific qualification in ICT area;<br>
+    - to support development of research based and innovative approaches for working on appropriate positions as well as readiness for continuous personal professional development;<br>
+    - to support development of competences for working on academic positions (researcher, lecturer) or as senior specialist in public, private or third sector.<br>
+</p>
+<h2>Learning Outcome</h2><p>
+The graduate:<br>
+- is internationally known specialist in an ICT problem area;<br>
+- has exhaustive knowledge and skills in a narrower area of the PhD thesis;
+</div>
+<div class="row">
+    <div class="column left" style="background-color:white;"> </div>
+- is able to compose high level scientific and popular publications and presentations;<br>
+- is able to work in a multinational team and as a team leader involve different partners; possesses necessary communication skills;<br>
+- is able to find innovative and adequate solutions in changing and unexpected situations;<br>
+- is independent and responsible in analysing, diagnosing, making decisions and implementations;<br>
+- is ready to follow established professional, ethical and intellectual property protection principles as well tolerant to diverse attitude and standpoints;<br>
+- is ready to analyse its own professional activities as well to plan and realize personal professional growth; possesses skills of effective independent learning.<br></p>
+<h2>What Do We Expect from an Applicant?</h2><p>
+We expect capable young people who have master level education in ICT or related field and who want to acquire a high level <br>qualification in the field of information technology, in the research scope of the School of Digital Technologies.</p>
+</div>
+<div class="row">
+    <div class="column left" style="background-color:white;"> </div>
+    <h2>Why Study Information Technology at Tallinn University?</h2>
+Tallinn University School of Digital Technologies is the only institution in Estonia that focuses on ‘soft’ information and communication technologies including social media applications,<br> 
+digital learning ecosystems, interaction design, workplace learning and other related fields. The rapid development of the school is based on drawing on expertise from a large partner network,<br> 
+ utilising EU funding, encouraging the empowerment of staff members as well as on applying a holistic approach, integrating dynamic teaching, research and development activities. Doctoral students <br> 
+ are also involved in implementation of several research grants and international projects. For acquiring research experience, it is possible to participate in conferences, seminars, summer schools<br> 
+  and study within the Erasmus programme at foreign universities. The school is located in a brand new building and offers excellent working conditions not only for its staff members, but also for visiting academics, post-doctors and students.</p>
+</div>
+<div class="row">
+    <div class="column left" style="background-color:white;">
+    </div>
+    <h2 style="color: #0073d8">Suggested Programmes</h2>
+      <div class="column" style="background-color:white;"> 
+          <img src="images/tlulogo.svg" alt="TLU Logo" width="80px"><br>
+         <label>230</label>
+          <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+          <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+          <label>Tallinn, Estonia</label><br>   
+        </div>
+        <div class="column" style="background-color:white;">
+            <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+            <p style="font-size: 10px">Tallinn University</p>
+            <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+            <p style="font-size: 10px">Cost: 3,250 Euros</p>
+            <p style="font-size: 10px">Language of Instruction: English</p>
+            <p style="font-size: 10px">Conferred Degree: Masters</p>   
+            <a href="index.html" style="font-size: 12px">readmore...</a>                                                                                             
+          </div>
+          <div class="column" style="background-color:white;"> 
+              <img src="images/tlulogo.svg" alt="TLU Logo" width="80px"><br>
+             <label>230</label>
+              <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+              <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+              <label>Tallinn, Estonia</label><br>   
+            </div>
+            <div class="column" style="background-color:white;">
+                <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+                <p style="font-size: 10px">Tallinn University</p>
+                <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+                <p style="font-size: 10px">Cost: 3,250 Euros</p>
+                <p style="font-size: 10px">Language of Instruction: English</p>
+                <p style="font-size: 10px">Conferred Degree: Masters</p> 
+                <a href="index.html" style="font-size: 12px">readmore...</a>                                                                                               
+              </div>
+              <div class="column" style="background-color:white;"> 
+                  <img src="images/tlulogo.svg" alt="TLU Logo" width="80px"><br>
+                 <label>230</label>
+                  <i class="fa fa-thumbs-o-up" style=color:#0073d8; font-size:12px;></i><br>
+                  <i class="fa fa-map-marker" style=color:#0073d8; font-size:12px;></i>
+                  <label>Tallinn, Estonia</label><br>   
+                </div>
+                <div class="column" style="background-color:white;">
+                    <h2 style="font-size: 10px">Human-Computer Interaction</h2>
+                    <p style="font-size: 10px">Tallinn University</p>
+                    <p style="font-size: 10px">Duration: 2 years (120 ETC)</p>
+                    <p style="font-size: 10px">Cost: 3,250 Euros</p>
+                    <p style="font-size: 10px">Language of Instruction: English</p>
+                    <p style="font-size: 10px">Conferred Degree: Masters</p> 
+                    <a href="index.html" style="font-size: 12px">readmore...</a>                                                                                               
+                  </div>
+</div>
+
+
+
+
+
+
+<div class="footer">
+  <p>Study Programmes</p><br>
+  - Search Programmes
+  <p>- Browse By Field</p>
+  <p>- Discover</p>
+</div>
+
+</div>
+</body>
+</html>
